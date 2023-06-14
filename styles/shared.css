@@ -1,0 +1,47 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+
+}
+
+header {
+    margin: 50px 50px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-logo {
+    border: 50px 60px;
+    font-family: "Oleo Script", sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+a {
+    text-decoration: none;
+    color: burlywood;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+a:hover { 
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+li { 
+    margin: 5px;
+}
