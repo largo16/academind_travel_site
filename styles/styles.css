@@ -34,7 +34,7 @@
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 300px;
-    
+    margin-bottom: 50px; 
 }
 
 #hero-content a {
@@ -43,4 +43,28 @@
     padding: 12px 24px;
     border-radius: 3px;
     font-weight: bold;
+}
+
+
+#destinations {
+     background-color: aquamarine;
+     margin: auto;
+     width: 80%;
+}
+
+#destinations ul {
+    display: flex;
+    margin: 0;
+}
+
+#destinations li {
+    align-items: center;
+    justify-content: center;
+}
+
+.destination img{
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 8px;
+
 }
