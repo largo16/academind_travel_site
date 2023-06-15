@@ -47,14 +47,27 @@
 
 
 #destinations {
-     background-color: aquamarine;
+     background-color:rgb(171, 219, 219);
      margin: auto;
-     width: 80%;
+     color: darkslategrey;
+
+}
+
+#destinations h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 20px;
+    text-shadow: 1px 1px 2px black;
+
 }
 
 #destinations ul {
     display: flex;
-    margin: 0;
+    margin: 0px 50px 0px 10px;
+    list-style-type: none;
+    justify-content: space-between;
 }
 
 #destinations li {
@@ -62,9 +75,17 @@
     justify-content: center;
 }
 
+#destinations p {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
 .destination img{
     height: 200px;
+    width: 400px;
     margin: 20px auto;
     border-radius: 8px;
+    box-shadow: 4px 4px 5px black
 
 }
