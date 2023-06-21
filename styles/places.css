@@ -17,10 +17,11 @@ main li {
     box-shadow: 1px 1px 4px rgb(0, 0, 0, 0.02);
     border-radius: 6px;
     overflow: hidden;
+    width: 500px;
 }
 
 main ul {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
     color: darkslategray;
 }
@@ -42,7 +43,6 @@ main li p {
 
 main li a {
     color: seagreen;
-    justify-content: right;
 }
 
 
@@ -53,5 +53,20 @@ main li a:hover {
 
 .item-content {
     padding: 24px;
-    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.actions {
+    text-align: right;
+}
+
+.duplex-container {
+    display: flex;
+}
+
+.single-container li {
+    width: 1000px;
+
 }
