@@ -47,7 +47,8 @@
 
 
 #destinations {
-     background-color:rgb(171, 219, 219);
+     /* background-color:rgb(227, 255, 253); */
+     background: linear-gradient(180deg, rgb(227, 255, 253), rgb(202, 243, 240));
      margin: auto;
      color: darkslategrey;
 
@@ -55,7 +56,7 @@
 
 #destinations h2 {
     text-align: center;
-    font-size: 30px;
+    font-size:40px;
     text-transform: uppercase;
     margin: 0;
     padding-top: 20px;
@@ -81,7 +82,7 @@
     margin-top: 0px;
 }
 
-.destination img{
+.destination img {
     height: 200px;
     width: 400px;
     margin: 20px auto;

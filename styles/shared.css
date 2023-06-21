@@ -48,3 +48,35 @@ header ul {
 li { 
     margin: 5px;
 }
+
+
+footer {
+
+    background: linear-gradient(70deg, grey, darkslategrey);
+    padding: 25px 0;
+
+}
+
+footer ul {
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+footer img {
+
+    width: 100px;
+}
+
+footer a {
+
+}
+
+footer a:hover { 
+    background-color: transparent;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: aliceblue;
+}
