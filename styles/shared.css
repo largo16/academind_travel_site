@@ -32,7 +32,7 @@ a {
     font-size: 25px;
 }
 
-a:hover { 
+header nav a:hover { 
     color: black;
     background-color: yellow;
     border-radius: 10px;
