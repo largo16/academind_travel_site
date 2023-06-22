@@ -1,0 +1,48 @@
+header { 
+    position: static;
+}
+
+#background {
+    height: 600px;
+    background-image: url("/images/places/ocean_horizon.jpg");
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    color: black ;
+    padding-top: 20px;
+}
+
+main {
+    color: darkslategrey;
+}
+
+#author-highlight {
+
+    width: 1000px;
+    background-color: rgb(203, 214, 234, 0.8);
+    border-radius: 10px;
+    margin: 20px auto;
+    justify-content: center;
+    display: flex;
+    box-shadow: 4px 4px 2px rgb(0, 0, 0, 0.4);
+    justify-content: space-between;
+    overflow: hidden;
+    
+}
+
+#author-highlight img {
+    width: 400px;
+    object-fit: cover;
+}
+
+#author-highlight h2 {
+
+    margin-left: 20px;
+}
+
+#author-highlight p {
+    padding: 0 20px;
+}

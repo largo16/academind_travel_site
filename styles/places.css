@@ -3,12 +3,31 @@ body {
 
 }
 
-main {
-    margin: 40px auto;
+#page-logo a {
+    color: rgb(183, 230, 235);
 }
 
 header { 
     position: static;
+}
+
+main {
+    margin: 40px auto;
+}
+
+header nav a:hover {
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
+
+main ul {
+    width: 1200px;
+    margin: 0 auto;
+    color: darkslategray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
 }
 
 main li { 
@@ -18,15 +37,6 @@ main li {
     border-radius: 6px;
     overflow: hidden;
     width: 100%;
-}
-
-main ul {
-    width: 1200px;
-    margin: 0 auto;
-    color: darkslategray;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px 20px;
 }
 
 main li img {
